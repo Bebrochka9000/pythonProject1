@@ -54,3 +54,8 @@ data = {
     "a": "9"
 }
 
+mas = [6,4,2,9,0,1,2]
+print(id(mas))
+c = mas
+c.append(66)
+print(mas)
