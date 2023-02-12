@@ -48,11 +48,7 @@ class Question():
         return "Ответ неверный, верный ответ", self.question_answer
 
 
-data = {
-    "q": "How many days do we have in the week",
-    "d": "1",
-    "a": "9"
-}
+
 
 
 
