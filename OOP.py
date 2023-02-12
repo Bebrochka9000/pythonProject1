@@ -54,8 +54,16 @@ data = {
     "a": "9"
 }
 
-mas = [6,4,2,9,0,1,2]
-print(id(mas))
-c = mas
-c.append(66)
-print(mas)
+
+
+
+def draw_table(question):
+    for categori_name, categori_question in question.items():
+        print(categori_name.ljust(15), end="")
+        for price, question_data in categori_question.items():
+            ask = question_data['asked']
+            if not ask:
+                print(price, " ", end="")
+            else:
+                print(" ", end="    ")
+        print()
