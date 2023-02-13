@@ -53,13 +53,4 @@ class Question():
 
 
 
-def draw_table(question):
-    for categori_name, categori_question in question.items():
-        print(categori_name.ljust(15), end="")
-        for price, question_data in categori_question.items():
-            ask = question_data['asked']
-            if not ask:
-                print(price, " ", end="")
-            else:
-                print(" ", end="    ")
-        print()
+
