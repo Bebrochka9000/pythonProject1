@@ -1,1 +1,5 @@
 /answers.py
+env/
+.idea/
+_pycache_/
+.log
